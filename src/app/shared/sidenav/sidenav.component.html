@@ -1,0 +1,10 @@
+<div class="border-right" id="sidenav-wrapper">
+    <img class="logo">
+    <ul>
+        <li *ngFor="let page of pages"><a routerLink="{{page.link}}">{{page.title}}</a></li>
+    </ul>
+    <ul>
+        <li><a routerLink="library">My Library</a></li>
+        <li><a routerLink="library">Profile</a></li>        
+    </ul>
+</div>
