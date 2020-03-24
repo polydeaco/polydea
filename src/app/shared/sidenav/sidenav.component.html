@@ -7,4 +7,13 @@
         <li><a routerLink="library">My Library</a></li>
         <li><a routerLink="library">Profile</a></li>        
     </ul>
+
+    <button (click)="auth.login()" *ngIf="!auth.loggedIn">Log In</button>
+    <button (click)="auth.logout()" *ngIf="auth.loggedIn">Log Out</button> 
+
+    <div *ngIf="auth.userProfile$ | async as profile">
+        <img src="{{profile.picture}}" class="avatar"> 
+        <p class="bold">{{profile.given_name }}</p>
+    </div>   
+    
 </div>

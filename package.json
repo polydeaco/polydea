@@ -21,6 +21,7 @@
     "@angular/platform-browser": "~8.0.1",
     "@angular/platform-browser-dynamic": "~8.0.1",
     "@angular/router": "~8.0.1",
+    "@auth0/auth0-spa-js": "^1.6.5",
     "bootstrap": "^4.4.1",
     "rxjs": "~6.4.0",
     "slick-carousel": "^1.8.1",
