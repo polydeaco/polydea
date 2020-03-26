@@ -38,7 +38,7 @@ Admin ONLY access. Shows relavent site data from analytics as well as CRUD for v
 ## Video Player
 Custom configuation of [Videojs](https://github.com/videojs) via [videojs-playlist](https://github.com/brightcove/videojs-playlist) and ,many other plugins like [videojs-logobrand](https://github.com/Mewte/videojs-logobrand). [videojs-share](https://github.com/mkhazov/videojs-share) and most importantly [Google IMA](https://github.com/googleads/videojs-ima) to help monitize the platform.
 
-## Slider
+## carousel
 Pretty much [slickjs](https://github.com/kenwheeler/slick/) 
 
 ## Infinite scroll
@@ -54,16 +54,16 @@ The UI/UX is very stardard for media outlets but includes an integrated shopping
 Very much like [Vicetv.com](https://www.vicetv.com/en_us
 
 ## Explore (/explore?q=XXXX)
-Users can perform fuzzy search and filter genre wit tabs. 
+Users can perform fuzzy search and filter genre wit tabs. query params for each search input 
 
 ## Video Playlist pages ( /playlist/XXXX )
-Very similar layout/look as [Vice video page](https://www.vicetv.com/en_us/video/wednesday-march-4-2020/5e4c0a59d11b9971890a3de5) . Each video refers to a playlist. Inlude show productsslider from the shop which are for sale. 
+Very similar layout/look as [Vice video page](https://www.vicetv.com/en_us/video/wednesday-march-4-2020/5e4c0a59d11b9971890a3de5) . The rest of the videos ont he same palylist are in the playlist section, and will automatically play next. Inlude 6 recently added products from the shop below the player in a carousel . 
 
 ## Shows (/shows)
-User can view and search the list of Shows. 
+User can view and search the list of Shows. Same layout as [Vice Show page](https://www.vicetv.com/en_us/shows).
 
 ## Music (/music)
-User can view and search the list of Shows. 
+User can view and search the list of Shows, each item forwards to the Playlist page.. [Vice Show page](https://www.vicetv.com/en_us/shows).
 
 ## Shop (/shop)
 Store experience much like 
