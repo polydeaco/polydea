@@ -51,19 +51,19 @@ Command line deployment via [Severless](https://github.com/serverless/serverless
 The UI/UX is very stardard for media outlets but includes an integrated shopping experience.
 
 ## Home 
-Very much like [Vicetv.com](https://www.vicetv.com/en_us)
+Very much like [Vicetv.com home page](https://www.vicetv.com/en_us)
 
 ## Explore (/explore?q=XXXX)
-Users can perform fuzzy search and filter results by "genre & mood" [chips](https://material.angular.io/components/chips/overview) provided by admin. Query params for each search input. Layout example [vicetv](https://www.vicetv.com/en_us/search?query=detroit&q=detroit). 
+Users can perform fuzzy search and filter all video results by "genre & mood" [chips](https://material.angular.io/components/chips/overview) provided by admin. Query params for each search input. Layout example [Vicetv.com search page](https://www.vicetv.com/en_us/search?query=detroit&q=detroit). 
 
 ## Video Playlist pages ( /playlist/XXXX )
-Very similar layout/look as [Vice video page](https://www.vicetv.com/en_us/video/wednesday-march-4-2020/5e4c0a59d11b9971890a3de5) . The rest of the videos ont he same palylist are in the playlist section, and will automatically play next. Inlude 6 recently added products from the shop below the player in a carousel . 
+Very similar layout/look as [Vicetv.com video page](https://www.vicetv.com/en_us/video/wednesday-march-4-2020/5e4c0a59d11b9971890a3de5) . The rest of the videos ont he same palylist are in the playlist section, and will automatically play next. Inlude 6 recently added products from the shop below the player in a carousel . 
 
 ## Shows (/shows)
 User can view and search the list of Shows. Same layout as [Vice Show page](https://www.vicetv.com/en_us/shows).
 
 ## Music (/music)
-User can view and search the list of Shows, each item forwards to the Playlist page.. [Vice Show page](https://www.vicetv.com/en_us/shows).
+User can view and search the list of Shows, each item forwards to the Playlist page.. [Vice show page](https://www.vicetv.com/en_us/shows).
 
 ## Shop (/shop)
 Store experience much like [foolsgoldrecs](https://store.foolsgoldrecs.com/)
