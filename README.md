@@ -51,7 +51,7 @@ Command line deployment via [Severless](https://github.com/serverless/serverless
 The UI/UX is very stardard for media outlets but includes an integrated shopping experience.
 
 ## Home 
-Very much like [Vicetv.com](https://www.vicetv.com/en_us
+Very much like [Vicetv.com](https://www.vicetv.com/en_us)
 
 ## Explore (/explore?q=XXXX)
 Users can perform fuzzy search and filter genre wit tabs. query params for each search input 
