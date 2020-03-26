@@ -1,4 +1,4 @@
-# Polydea stream.polydea.co
+# Polydea
 Multi video streaming platform built with Angular, Google Firebase and a host of 3rd party libraries. Here's a list of the built in features :
 
 ## User Authentication
