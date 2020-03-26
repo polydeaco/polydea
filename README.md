@@ -68,3 +68,8 @@ User can view and search the list of Shows, each item forwards to the Playlist p
 ## Shop (/shop)
 Store experience much like [foolsgoldrecs](https://store.foolsgoldrecs.com/)
 
+## My Library (mylibrary)
+THis is he place where users can see video's they liked as well as custom playlists.
+
+
+
