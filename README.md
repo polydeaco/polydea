@@ -1,29 +1,70 @@
-# Polydea
+# Polydea stream.polydea.co
+Multi video streaming platform built with Angular, Google Firebase and a host of 3rd party libraries. Here's a list of the built in features :
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+## User Authentication
+Utilizes oAuth functionality  for sign in/out via social media ,  as well as authGuard for the dash board and subscriber only pages. Suscribers can see exlusive content and and go ad-free expreince to the platform as well as automatic discount applied in the shopping cart. 
 
-## Development server
+## User Subscriptions
+Managed by [Stripe Subscriptions](https://github.com/stripe-samples/set-up-subscriptions) and intergrated with oAuth. Package are like such :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Free
+Advertisemnets, no more thn 5 conesectutive playlist, skips only see free content 
 
-## Code scaffolding
+### Premium 
+No ad interruptions, unlimied skips, custom playlists, shopping cart discounts.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Shop
+Everything from shopping cart, payments and invoices is managed by [Snipcart](https://github.com/snipcart) 
 
-## Build
+## Analytics
+Configure all user events and relavant data to Google analytics.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Back End
+All data is stored via google Firebase/Firestore database. Use cloud functions to create data sets for video types like :
+### latest
+return the last 12 added  videos
+### most_viewed
+return the most watched video for today, past week, month, and overall
+### Play_count
+return  the overall plays for each video and playlist
+### Plays
+Returns play count today, past week, month, and overall.
+### suggested
+uses overall data to suggest 12 vidoes. 
 
-## Running unit tests
+## Dashboard
+Admin ONLY access. Shows relavent site data from analytics as well as CRUD for videos, ad spots, products and  blogs to dtabase 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Video Player
+Custom configuation of [Videojs](https://github.com/videojs) via [videojs-playlist](https://github.com/brightcove/videojs-playlist) and ,many other plugins like [videojs-logobrand](https://github.com/Mewte/videojs-logobrand). [videojs-share](https://github.com/mkhazov/videojs-share) and most importantly [Google IMA](https://github.com/googleads/videojs-ima) to help monitize the platform.
 
-## Running end-to-end tests
+## Slider
+Pretty much [slickjs](https://github.com/kenwheeler/slick/) 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Infinite scroll
+Not sure if we need a plugin for this yet. 
 
-## Further help
+## Deployment
+Command line deployment via [Severless](https://github.com/serverless/serverless)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# polydea
-# polydea
+# Pages
+The UI/UX is very stardard for media outlets but includes an integrated shopping experience.
+
+## Home 
+Very much like [Vicetv.com](https://www.vicetv.com/en_us
+
+## Explore (/explore?q=XXXX)
+Users can perform fuzzy search and filter genre wit tabs. 
+
+## Video Playlist pages ( /playlist/XXXX )
+Very similar layout/look as [Vice video page](https://www.vicetv.com/en_us/video/wednesday-march-4-2020/5e4c0a59d11b9971890a3de5) . Each video refers to a playlist. Inlude show productsslider from the shop which are for sale. 
+
+## Shows (/shows)
+User can view and search the list of Shows. 
+
+## Music (/music)
+User can view and search the list of Shows. 
+
+## Shop (/shop)
+Store experience much like 
+
