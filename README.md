@@ -8,7 +8,7 @@ Utilizes oAuth functionality  for sign in/out via social media ,  as well as aut
 Managed by [Stripe Subscriptions](https://github.com/stripe-samples/set-up-subscriptions) and intergrated with oAuth. Package are like such :
 
 ### Free
-Advertisemnets, no more thn 5 conesectutive playlist, skips only see free content 
+google IMA and banner ad's, no more then 5 consectutive playlist skips. 
 
 ### Premium 
 No ad interruptions, unlimied skips, custom playlists, shopping cart discounts.
@@ -66,5 +66,5 @@ User can view and search the list of Shows. Same layout as [Vice Show page](http
 User can view and search the list of Shows, each item forwards to the Playlist page.. [Vice Show page](https://www.vicetv.com/en_us/shows).
 
 ## Shop (/shop)
-Store experience much like 
+Store experience much like [foolsgoldrecs](https://store.foolsgoldrecs.com/)
 
